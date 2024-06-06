@@ -3,9 +3,6 @@
     <div class="w-full sm:w-8/12 mb-10">
       <div class="container mx-auto h-full sm:p-10">
         <nav class="flex px-4 justify-between items-center">
-          <div class="text-4xl font-bold text-white">
-            ZipApi<span class="text-green-700">.</span>
-          </div>
           <div>
             <img src="https://image.flaticon.com/icons/svg/497/497348.svg" alt="" class="w-8">
           </div>

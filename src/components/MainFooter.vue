@@ -1,9 +1,9 @@
 <template>
-  <footer class="bg-gray-900 p-10 font-[sans-serif] tracking-wide">
+  <footer class="bg-black p-10 font-[sans-serif] tracking-wide">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div class="lg:flex lg:items-center">
           <a href="javascript:void(0)">
-            <img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class="w-52" />
+            <img src="https://placehold.co/600x400" alt="logo" class="w-52" />
           </a>
         </div>
 
@@ -71,7 +71,7 @@
       </div>
 
       <p class='text-gray-300 text-sm mt-10'>© 2023<a href='https://readymadeui.com/' target='_blank'
-        class="hover:underline mx-1">ReadymadeUI</a>All Rights Reserved.
+        class="hover:underline mx-1">ZipApi</a>All Rights Reserved.
       </p>
     </footer>
 </template>

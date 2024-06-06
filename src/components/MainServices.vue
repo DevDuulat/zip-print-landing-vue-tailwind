@@ -1,5 +1,6 @@
 <template>
-    <div class="bg-black text-white container mx-auto p-4">
+    <div class="services-section bg-black text-white p-4">
+      <div class="max-w-7xl mx-auto">
         <h2 class="text-6xl font-bold mb-14">Наши услуги</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             <div class="p-10 bg-black rounded-lg border-2 border-white">
@@ -16,6 +17,7 @@
             </div>
         
         </div>
+     </div>
     </div>
 
 </template>
