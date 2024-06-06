@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <MainHeader />
+    <MainPromo />
+    <MainServices />
+    <MainPortfolio />
+    <CtaSection />
+    <ContactForm />
+    <MainFooter />
+  </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainHeader from './components/MainHeader.vue'
+import MainPromo from './components/MainPromo.vue'
+import MainServices from './components/MainServices.vue'
+import MainPortfolio from './components/MainPortfolio.vue'
+import CtaSection from './components/CtaSection.vue'
+import ContactForm from './components/ContactForm.vue'
+import MainFooter from './components/MainFooter.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainHeader,
+    MainPromo,
+    MainServices,
+    MainPortfolio,
+    CtaSection,
+    ContactForm,
+    MainFooter
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
